@@ -1,2 +1,2 @@
-# Python-Basic
+# IBM Coursera
 IBM Watson Courses
