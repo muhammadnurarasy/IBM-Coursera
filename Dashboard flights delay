@@ -1,3 +1,5 @@
+saved_file_name.py
+
 # importing modules
 import pandas as pd
 import plotly.graph_objects as go
@@ -91,3 +93,11 @@ def get_graph(entered_year):
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)
+    
+    
+# Get the tool Ready
+python3 -m pip install packaging
+python3 -m pip install pandas dash
+pip3 install httpx==0.20 dash plotly
+# Run the Script
+python3 saved_file_name.py
